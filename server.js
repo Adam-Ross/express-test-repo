@@ -42,7 +42,7 @@ server.on('request', function(req, res)  {
     } else {
         console.log(req.url)
         const homeMessage = {
-            message: 'Home',
+            message: 'this is the home screen',
             page: 'Home page'
         }
         res.end(JSON.stringify(homeMessage))
